@@ -32,4 +32,26 @@
 		background-color: #57606f;
 		padding: 0 8px 0 8px;
 	}
+
+	div.thread > blockquote.post_message {
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 5px;
+		margin: 0;
+		padding: 16px;
+	}
+
+	div.threads > div.thread {
+		padding: 0;
+		border-bottom: 0;
+		border-top: 0;
+	}
+
+	div > a:before {
+		content: "[";
+	}
+
+	div > a:after {
+		content: "]";
+	}
 }
