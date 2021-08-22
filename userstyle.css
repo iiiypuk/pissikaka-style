@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           ПиссиЧан
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@description    A new userstyle
+@author         Alexander Popov
+==/UserStyle== */
+
+@-moz-document domain("pissychan.oxore.net") {
+	@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+	:root {
+		--main-bg-color: #2f3542;
+		--main-bg2-color: --main-bg-color;
+		--main-txt-color: #ffffff;
+		--main-fg2-color: #ff6b81;
+	}
+
+	body {
+		font-family: "Source Sans Pro";
+	}
+
+	div.thread span.poster {
+		color: var(--main-fg2-color);
+	}
+
+	span.thread_id:before {
+		content: "#";
+	}
+
+	code {
+		background-color: #57606f;
+		padding: 0 8px 0 8px;
+	}
+}
